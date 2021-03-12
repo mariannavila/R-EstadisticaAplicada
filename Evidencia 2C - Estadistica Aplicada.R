@@ -1,4 +1,4 @@
-#Evidencia #2 - Luis Angel Mendoza Gonzalez - 20210303
+
 
 install.packages("TSA")
 library(TSA)
@@ -81,7 +81,7 @@ a <- lm(hours~time(hours))
 #Modelo Polinomico
 
 b<-lm(hours~poly(to,degree = 3)) #revisando polinomio, (lm(y contra el grado de polinomio))
-summary(b) #modelo significativo r2=66.91% y pvalor pequeño
+summary(b) #modelo significativo r2=66.91% y pvalor pequeÃ±o
 
 #Modelo Logaritmico
 diff(hours)
